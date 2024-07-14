@@ -48,55 +48,73 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pangolin&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <meta name="title" content="Константин Прокопенко - профессиональный фотограф в Минске">
   <meta name="description" content="Профессиональный фотограф Константин Прокопенко. Фотосъемка в Минске и других городах по всей Беларуси. Провожу индивидуальные и групповые съёмки.">
 </head>
 <body>
     <div class="jumbotron gradient title">
     </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="/"><img src="static/img/logo1.jpg" alt="" class="rounded" width="48" height="48"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Главная</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="#about">Обо мне</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="#portfolio">Портфолио</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="#services">Услуги</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="#contact">Контакты</a>
+              </li>
+                </li>
+              </div>
+          </ul>
+          </div>
+      </div>
+  </nav>
+  </div>
   <header>
-    <nav>
-      <ul class="main-menu">
-        <li><a href="#home">Главная</a></li>
-        <li><a href="#about">Обо мне</a></li>
-        <li><a href="#portfolio">Портфолио</a></li>
-        <li><a href="#services">Услуги</a></li>
-        <li><a href="#contact">Контакты</a></li>
-      </ul>
-   
-	  
     <div class="hero">
       <h1>Константин Прокопенко</h1>
       <p>Профессиональный фотограф в Минске</p>
       <a href="#contact" class="gbutton">Заказать съемку</a>
     </nav>
-    </div>
+    
   </header>
   <main>
     <center><section id="home">
      <h2>Приветствую вас!</h2>
       <p>Я - Константин Прокопенко. Моя страсть - запечатлевать красоту и эмоции людей, создавая неповторимые снимки.</p>
     </section>
-	    
+  </div>
     <section id="about">
       <h2>Обо мне</h2>
-      <center>
         <p>•Провожу индивидуальные и групповые съёмки.</p>
         <p>•Дипломированный специалист в области фотографии.</p>
         <p>•Работаю в разных стилях: от портретной фотографии до коммерческой съемки.</p>
         <p>•Подбираю индивидуальный подход к каждому клиенту для полноценного и яркого результата.</p>
         <p>•Приятный прайс, который могут позволить себе все!</p>
-    </center>
   <br>
     <h2>Что вы получите?</h2>
 
-    <center>
         <p>• Незабываемые впечатления<br>
         • Дружелюбную атмосферу и<br>
         профессиональные фотографии, которые:<br>
         исполнят вашу мечту и
         раскроют вашу красоту и индивидуальность</p>
-    </center>
   <br>
       <img src="static/img/prokopenko.jpg" width="400" height="110" alt="Константин Прокопенко">
     </section>    
@@ -105,8 +123,10 @@
       <h2>Портфолио</h2>
       <div class="image-frame"> 
           <div class="image-wrapper">
+          <a href="streetphoto.html">
           <img src="static/img/studio.jpg" alt="Студийная фотосессия">
-          <figcaption class="figcaption">Студийная фотосессия</figcaption>
+          </a>
+          <figcaption class="figcaption"><a href="/">Студийная фотосессия</a></figcaption>
         </div>
         <div class="image-wrapper">
           <img src="static/img/portrait.jpg" alt="Портретная фотосессия">
@@ -117,12 +137,15 @@
           <figcaption class="figcaption">Пейзажная фотосессия</figcaption>
         </div>
         <div class="image-wrapper">
+          <a href="streetphoto.html">
           <img src="static/img/street.jpg" alt="Уличная фотосессия">
-          <figcaption class="figcaption">Уличная фотосессия</figcaption>
+          </a>
+          <figcaption class="figcaption"><a href="streetphoto.html">Уличная фотосессия</a></figcaption>
         </div>
       </div>
     </div>
     </section>
+  </center>
     <div class="contact-info">
     <section id="services">
      <h2>Услуги</h2>
@@ -136,8 +159,8 @@
       <p>Свяжитесь со мной, чтобы узнать больше о моих услугах и забронировать съемку.</p>
       <br>
         <ul>
-          <p><a href="https://t.me/photoprokopenko" target="_blank"><i class="fab fa-facebook-f"></i> Telegram</a></p>
-          <p><a href="https://www.instagram.com/9740konstantin/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></p>
+          <p><a href="https://t.me/photoprokopenko" target="_blank"> Telegram</a></p>
+          <p><a href="https://www.instagram.com/9740konstantin/" target="_blank"> Instagram</a></p>
           <p><a href="mailto:photoprokopenko@yandex.com">photoprokopenko@yandex.com</a></p>
         </ul>
       </div>
@@ -145,9 +168,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2024 Константин Прокопенко
-    </p>
+    <h>&copy; 2024 Константин Прокопенко</h>
   </footer>
-  <script src="static/js/script.js"></script>
 </body>
 </html>
