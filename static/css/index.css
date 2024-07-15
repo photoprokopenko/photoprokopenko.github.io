@@ -11,12 +11,12 @@
     font-weight: 600;
     font-size: 23px;
     line-height: 1.5;
-    color: #4d4545;
+    color: #4d4545 !important;
     background-color: #ffffff;
   }
 
   a {
-    color: #278ff0; 
+    color: #ffffff; 
     text-decoration: none !important;
   }  
   
@@ -65,7 +65,7 @@
     padding: 10px 20px;
     font-size: 150%;
     background-color: #47a52f;
-    color: #ffffff;
+    color: #ffffff !important; 
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -103,22 +103,22 @@
     margin: 50px;
     width: 500px; 
     height: 500px; 
-    /*box-shadow: 0 0px 0px #ff004062;
-    transition: box-shadow 0.3s ease;*/
+    box-shadow: 0 0px 0px #ff004062;
+    transition: box-shadow 0.3s ease;
   }
 
   .image-wrapper .figcaption {
     font-family: "Balsamiq Sans", sans-serif;
     font-weight: 600;
     font-size: 25px;
-    color: #4d4545;
+    color: #4d4545 !important;
     text-align: center;
     margin-top: 2px;
   }
 
-  /*.image-wrapper:hover {
-    box-shadow: 0 1px 1px #ff009562;
-  }*/
+  .image-wrapper:hover {
+    box-shadow: 0 8px 10px #ff009562;
+  }
   
   .contact-info {
     text-align: center;
