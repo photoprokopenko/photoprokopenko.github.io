@@ -180,7 +180,7 @@ header {
 }
 .header-section__img {
     position: relative;
-    background-image: url(static/images/photographer.jpg);
+    background-image: url(/static/images/photographer.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     width: 750px;
@@ -846,7 +846,7 @@ header {
         background-image: linear-gradient(to right,var(--Base) 40%, var(--Base) 30%);  
     }
     .header-section__img {
-        background: url(static/images/photographer_media.png);
+        background: url(/static/images/photographer_media.png);
         background-repeat: no-repeat;
         background-position: right;
     }
