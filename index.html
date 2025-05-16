@@ -10,7 +10,6 @@
         })(window, document, "clarity", "script", "qqqrfqwlls");
     </script>
 
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,14 +17,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Sen:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/static/css/min_style.css">
-    <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="icon" href="static/images/favicon.ico" type="image/x-icon">
     <title>Константин Прокопенко - ?</title>
 </head>
 
 <body>
 
     <header id="home">
+
+             <div id="notification-container"></div>
+                <a href="https://forms.gle/R5wHT9W1zcAVqGyQ8" id="email-button">Отправьте мне письмо</a>
+            </div>
 
         <div class="header-section">
             <div class="header-section__img"></div>
@@ -37,6 +40,7 @@
                 <p class="header-section__text">
                     Но зато я впишу своё имя в цифровую вечность...
                 </p>  
+
             </div>
         </div>
             
@@ -50,5 +54,13 @@
             </div>
         </div>
     </footer>
+
+    <div id="overlay"></div>
+        <div id="popup">
+        <p>Хотите отправить мне письмо? Это просто! Я буду вам благодарен!</p>
+        <a href="https://forms.gle/R5wHT9W1zcAVqGyQ8" target="_blank" class="popup-button">Отправить письмо</a>
+        <button id="close-popup">Закрыть</button>
+    </div>
+    <script src="static/js/script.js"></script>
 </body>
 </html>
