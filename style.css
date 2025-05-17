@@ -748,6 +748,12 @@ header {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
+#email-button:active {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+    animation: glowEffect 0.3s ease-in-out;
+}
+
 @keyframes gradientShift {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -757,6 +763,12 @@ header {
 @keyframes pulse {
     0% { transform: scale(1); }
     100% { transform: scale(1.05); }
+}
+
+@keyframes glowEffect {
+    0% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); }
+    50% { box-shadow: 0 0 20px rgba(255, 255, 255, 0.6); }
+    100% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); }
 }
 
 #overlay {
@@ -808,6 +820,12 @@ header {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
+.popup-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+    animation: buttonPress 0.2s ease-in-out;
+}
+
 #close-popup {
     margin-top: 10px;
     background: gray;
@@ -836,6 +854,12 @@ header {
 @keyframes pulse {
     0% { transform: scale(1); }
     100% { transform: scale(1.05); }
+}
+
+@keyframes buttonPress {
+    0% { transform: scale(1); box-shadow: 0 0 6px rgba(255, 255, 255, 0.3); }
+    50% { transform: scale(0.95); box-shadow: 0 0 12px rgba(255, 255, 255, 0.6); }
+    100% { transform: scale(1); box-shadow: 0 0 6px rgba(255, 255, 255, 0.3); }
 }
 
 
