@@ -177,6 +177,8 @@ header {
     justify-content: center;
     /* padding: 5rem 2.5rem 5.25rem 0;   */
     padding-bottom: 5.25rem;
+    position: relative;
+    z-index: 1;
 }
 .header-section__img {
     position: relative;
@@ -728,6 +730,7 @@ header {
 
 #email-button {
     position: fixed;
+    z-index: 9999;
     bottom: 20px;
     right: 20px;
     padding: 14px 24px;
