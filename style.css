@@ -457,20 +457,22 @@ header {
     margin-top: 91px;  
 }
 .project-list__btn {
-    /* box-sizing: border-box; */
-    width: 247px;
-    height: 75px;
-    padding: 24px 27px;
-    text-align: center;
+    display: inline-block;
+    width: auto;                      
+    padding: 18px 30px;               
     background-color: var(--Base);
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 150%; /* 27px */
+    line-height: 1.5;                 
     text-transform: uppercase;
     color: var(--Text);
     border: 1px solid var(--Primary);
-    cursor: pointer;    
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 25px;
+    text-decoration: none;   
 }
 .page-light_violet {
     background-color: var(--Violet-Accent);
@@ -917,7 +919,7 @@ header {
         padding:  80px 40px;
     }
 }
-@media (max-width: 670px) {
+@media (max-width: 557px) {
 
     .nav-bar {
         padding: 24px 20px;
